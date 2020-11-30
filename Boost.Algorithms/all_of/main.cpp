@@ -11,6 +11,10 @@ bool lessThan10(int i)
 	return i < 10;
 }
 
+/*
+all_of/all_of_equal：容器内所有数据都满足条件才返回true，否则返回false。
+*/
+
 using std::cout;
 using std::endl;
 using namespace boost::algorithm;
