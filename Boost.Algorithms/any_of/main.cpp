@@ -16,6 +16,10 @@ bool lessThan10(int i)
 	return i < 10;
 }
 
+/*
+	容器中存在满足条件的值就返回true，否则返回false。
+*/
+
 int main()
 {
 	std::vector<int> c = { 0, 1, 2, 3, 14, 15 };
