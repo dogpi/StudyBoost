@@ -1,0 +1,13 @@
+﻿生成启动时间为 2020/12/13 21:25:00。
+     1>项目“E:\GitHub\StudyBoost\Boost.smart_ptr\scoped_ptr\scoped_ptr.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\boost_1_74_0 /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>e:\github\studyboost\boost.smart_ptr\scoped_ptr\main.cpp(53): error C2248: “boost::scoped_ptr<int>::scoped_ptr”: 无法访问 private 成员(在“boost::scoped_ptr<int>”类中声明)
+                 c:\boost_1_74_0\boost\smart_ptr\scoped_ptr.hpp(53) : 参见“boost::scoped_ptr<int>::scoped_ptr”的声明
+                 此诊断出现在编译器生成的函数“ptr_owned::ptr_owned(const ptr_owned &)”中
+     1>已完成生成项目“E:\GitHub\StudyBoost\Boost.smart_ptr\scoped_ptr\scoped_ptr.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.63
