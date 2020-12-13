@@ -1,0 +1,14 @@
+﻿生成启动时间为 2020/12/12 13:10:40。
+     1>项目“E:\GitHub\StudyBoost\Boost.timer\timer\timer.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\boost_1_74_0 /Zi /nologo /W1 /WX- /O2 /Oy- /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"boost\\" /Fd"boost\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+         C:\boost_1_74_0\boost/timer.hpp(21): note: This header is deprecated. Use the facilities in <boost/timer/timer.hpp> instead.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\GitHub\StudyBoost\Boost.timer\boost\timer.exe" /NOLOGO /LIBPATH:C:\boost_1_74_0\stage\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"E:\GitHub\StudyBoost\Boost.timer\boost\timer.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\GitHub\StudyBoost\Boost.timer\boost\timer.lib" /MACHINE:X86 /SAFESEH boost\main.obj
+         timer.vcxproj -> E:\GitHub\StudyBoost\Boost.timer\boost\timer.exe
+     1>已完成生成项目“E:\GitHub\StudyBoost\Boost.timer\timer\timer.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.97

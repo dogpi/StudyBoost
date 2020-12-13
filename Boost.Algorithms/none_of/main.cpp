@@ -2,6 +2,7 @@
 #include <boost/algorithm/cxx11/none_of.hpp>
 #include <vector>
 
+
 using namespace boost::algorithm;
 using std::cout;
 using std::endl;
